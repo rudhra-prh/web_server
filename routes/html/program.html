@@ -49,7 +49,7 @@
 </head>
 <body>
 
-  <h2>ai apis</h2>
+  <h2>program</h2>
 
   <table border="5">
     <tr>
@@ -59,52 +59,80 @@
       <th>Parameter</th>
       <th colspan="2">method</th>
     </tr>
-   
-    <tr>
-      <td>chatgpt</td>
-      <td>generates chatgpt output</td>
+<tr>
+      <td>morece_encode</td>
+      <td>convert code</td>
       <td>json</td>
-      <td>apikey, text</td>
-      <td colspan="2">
-      <a class="method" href="/api/ai/chatgpt?text=hi&apikey=free50_inrl">GET</a>
+      <td>text, apikey</td>
+      <td>
+      <a class="method" href="/api/program/morece_encode?text=your text&apikey=free50_inrl">GET</a>
       </td>
     </tr>
-    <tr>
-      <td>bard</td>
-      <td>generates bard output</td>
+<tr>
+      <td>morece_decode</td>
+      <td>convert code</td>
       <td>json</td>
-      <td>apikey, text</td>
-      <td colspan="2">
-      <a class="method" href="/api/ai/bard?text=hi&apikey=free50_inrl">GET</a>
+      <td>text, apikey</td>
+      <td>
+      <a class="method" href="/api/program/morece_decode?text=your text&apikey=free50_inrl">GET</a>
       </td>
     </tr>
-    <tr>
-      <td>bing</td>
-      <td>generates bing ai image</td>
-      <td>Buffer</td>
-      <td>apikey, text</td>
-      <td colspan="2">
-      <a class="method" href="/api/ai/bing?text=hi&apikey=free50_inrl">GET</a>
-      </td>
-    </tr>
-    <tr>
-      <td>gemini</td>
-      <td>generates gemini output</td>
+<tr>
+      <td>js_minify</td>
+      <td>convert code</td>
       <td>json</td>
-      <td>apikey, text</td>
-      <td colspan="2">
-      <a class="method" href="/api/ai/gemini?text=hi&apikey=free50_inrl">GET</a>
+      <td>text, apikey</td>
+      <td>
+      <a class="method" href="/api/post_methods">POST</a>
       </td>
     </tr>
-    <tr>
-      <td>diffusion</td>
-      <td>generates stable diffusion image</td>
-      <td>Buffer</td>
-      <td>apikey, text</td>
-      <td colspan="2">
-      <a class="method" href="/api/ai/diffusion?text=hi&apikey=free50_inrl">GET</a>
+<tr>
+      <td>js_obfuscate</td>
+      <td>convert code</td>
+      <td>json</td>
+      <td>text, apikey</td>
+      <td>
+      <a class="method" href="/api/post_methods">POST</a>
       </td>
     </tr>
+<tr>
+      <td>js_deobfuscate</td>
+      <td>convert code</td>
+      <td>json</td>
+      <td>text, apikey</td>
+      <td>
+      <a class="method" href="/api/post_methods">POST</a>
+      </td>
+    </tr>
+<tr>
+      <td>js_beautify</td>
+      <td>convert code</td>
+      <td>json</td>
+      <td>text, apikey</td>
+      <td>
+      <a class="method" href="/api/post_methods">POST</a>
+      </td>
+    </tr>
+<tr>
+      <td>css_beautify</td>
+      <td>convert code</td>
+      <td>json</td>
+      <td>text, apikey</td>
+      <td>
+      <a class="method" href="/api/post_methods">POST</a>
+      </td>
+    </tr>
+<tr>
+      <td>html_beautify</td>
+      <td>convert code</td>
+      <td>json</td>
+      <td>text, apikey</td>
+      <td>
+      <a class="method" href="/api/post_methods">POST</a>
+      </td>
+    </tr>
+
+
   </table>
   <script>
   	const type = document.getElementsByClassName("method");
