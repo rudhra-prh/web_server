@@ -3,7 +3,7 @@
     "main": "./index.js",
     "engines": {
         "npm": ">=10.8.2",
-        "node": "18.12.1"
+        "node": "18.20.2"
     },
     "scripts": {
         "start": "node index.js"
