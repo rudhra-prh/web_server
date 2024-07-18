@@ -16,7 +16,7 @@
     },
     "dependencies": {
         "@octokit/core": "^6.1.2",
-        "@whiskeysockets/baileys": "git+https://github.com/WhiskeySockets/Baileys.git",
+        "@whiskeysockets/baileys": "git+https://github.com/WhiskeySockets/Baileys.git#fix-516",
         "awesome-phonenumber": "^6.10.0",
         "axios": "^1.7.2",
         "djs": "git+https://github.com/rudhra-prh/obfuscator-io-deobfuscator.git",
