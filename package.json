@@ -1,6 +1,6 @@
 {
     "description": "qr",
-    "main": "./index.js",
+    "main": "index.js",
     "engines": {
         "npm": ">=10.8.2",
         "node": ">=22.5.0"
